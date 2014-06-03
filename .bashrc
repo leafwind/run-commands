@@ -79,6 +79,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+else # for other OS (e.g. Mac) which does not support `dircolors`
+    export CLICOLOR=1
+    export LSCOLORS=GxFxCxDxBxegedabagaced
 fi
 
 # some more ls aliases
@@ -111,6 +114,7 @@ PS1='[\[\e[1;33m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[1;35m\](\t)\[\e[1;37m\]]:\[\
 bind '"\x1b\x5b\x41":history-search-backward'
 bind '"\x1b\x5b\x42":history-search-forward'
 export PYTHONPATH="/usr/local/lib/python2.7/:/usr/local/lib/python2.7/dist-packages:/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
+
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
