@@ -7,8 +7,10 @@ include:
 
 # .vimrc
   * color syntax
+
 # .bashrc
-  * ## PS1 color prompt
+  * PS1 color prompt
+
 # .screenrc
   * scroll buffer
   * status line
