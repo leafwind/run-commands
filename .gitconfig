@@ -1,6 +1,9 @@
-git config --global color.ui true
-git config --global core.editor vim
-git config --global alias.co checkout
-git config --global alias.cm commit
-git config --global alias.st status
-git config --global alias.br branch
+[color]
+    ui = true
+[core]
+    editor = vim
+[alias]
+    co = checkout
+    cm = commit
+    st = status
+    br = branch
