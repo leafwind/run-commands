@@ -88,6 +88,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias als='aws s3 ls'
+alias acp='aws s3 cp'
+alias are='aws s3 rm'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
