@@ -1,19 +1,25 @@
 run-commands
 ==
 
-My run commands setting (*.rc file)
+Connor's run commands setting (*.rc file)
 
-include:
+## setup a new mac
 
-# .vimrc
+`sudo hostname -s NewHostName`
+`cp ~/git/run-commands/.bash_profile ~/`
+
+## file detail:
+
+* .vimrc
   * color syntax
 
-# .bash_profile
+* .bash_profile
   * boot strap for mac terminal, must include this when copying `.bashrc`
 
-# .bashrc
+* .bashrc
   * PS1 color prompt
 
-# .screenrc
+* .screenrc
   * scroll buffer
   * status line
+
