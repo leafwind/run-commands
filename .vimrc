@@ -86,7 +86,7 @@ set cursorline " display line of current cursor
 
 set laststatus=2 " expand status line to height of 2
 set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%l,%v,%p%%]
-
+set viminfo='100,<1000,s100,h
 
 syntax on
 highlight Comment ctermfg=darkcyan
