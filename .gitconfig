@@ -7,3 +7,4 @@
     cm = commit
     st = status
     br = branch
+    d = diff
