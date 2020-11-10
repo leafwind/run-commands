@@ -116,3 +116,6 @@ PS1='[\[\e[1;33m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[1;35m\](\t)\[\e[1;37m\]]:\[\
 
 bind '"\x1b\x5b\x41":history-search-backward'
 bind '"\x1b\x5b\x42":history-search-forward'
+
+# git locale
+alias git='LANG=en_US git'
