@@ -8,3 +8,5 @@
     st = status
     br = branch
     d = diff
+[user]
+	email = leafwind.cs@gmail.com
